@@ -9,7 +9,7 @@ session_start();
 date_default_timezone_set('Europe/Copenhagen');
 
 // home page url
-$home_url="http://localhost/phpschool/school_clientside/";
+$home_url="http://localhost/php-db/grp1Clientside/";
 
 // page given in URL parameter, default page is one
 $page = isset($_GET['page']) ? $_GET['page'] : 1;
